@@ -1,0 +1,273 @@
+﻿QP TERMINAL
+ĐIỀU KHOẢN SỬ DỤNG, TUYÊN BỐ KHÔNG KHUYẾN NGHỊ ĐẦU TƯ VÀ MIỄN TRỪ TRÁCH NHIỆM
+
+Nhà phát hành: Quant Percent
+Website: https://quantpercent.com
+Phiên bản điều khoản: 1.0, áp dụng cho QP Terminal 0.1.0
+
+VUI LÒNG ĐỌC KỸ TOÀN BỘ VĂN BẢN NÀY TRƯỚC KHI CÀI ĐẶT.
+
+Bằng việc đánh dấu ô "Tôi chấp thuận các điều khoản" và tiếp tục cài đặt, hoặc bằng việc sử dụng QP Terminal dưới bất kỳ hình thức nào, bạn xác nhận rằng bạn đã đọc, hiểu và đồng ý bị ràng buộc bởi toàn bộ các điều khoản dưới đây. Nếu bạn không đồng ý với bất kỳ điều khoản nào, hãy chọn "Hủy bỏ", không cài đặt và không sử dụng phần mềm.
+
+
+================================================================
+PHẦN A. THÔNG TIN CHUNG
+================================================================
+
+ĐIỀU 1. ĐỊNH NGHĨA
+
+Trong văn bản này, các từ ngữ dưới đây được hiểu như sau:
+
+1.1. "Quant Percent", "chúng tôi": đơn vị phát triển và phát hành QP Terminal, thông tin được công bố tại https://quantpercent.com.
+
+1.2. "QP Terminal", "Phần mềm": ứng dụng máy tính QP Terminal, bao gồm tệp cài đặt, tệp chương trình, giao diện, tài liệu đi kèm, các bản cập nhật, bản sửa lỗi, plugin mẫu và mọi thành phần do Quant Percent cung cấp kèm theo.
+
+1.3. "Bạn", "Người dùng": cá nhân cài đặt hoặc sử dụng Phần mềm.
+
+1.4. "Dữ liệu thị trường": giá, khối lượng, nến, chỉ số và mọi dữ liệu tài chính mà Phần mềm hiển thị hoặc sử dụng, dù được lấy từ Quant Percent, từ sàn giao dịch, từ nhà cung cấp bên thứ ba hay do Người dùng tự nạp.
+
+1.5. "Kết quả phân tích": mọi chỉ báo, tín hiệu, biểu đồ, kết quả backtest, tối ưu hoá tham số, kiểm định walk-forward, mô phỏng Monte Carlo, thống kê, cảnh báo, kết quả giao dịch giả lập và mọi con số, nhận định mà Phần mềm tạo ra.
+
+1.6. "Giao dịch giả lập" (Paper trading): tính năng mô phỏng việc đặt lệnh và theo dõi lãi lỗ bằng tiền ảo, không phát sinh bất kỳ giao dịch thật nào.
+
+1.7. "Mã do Người dùng viết": chỉ báo, chiến lược, plugin hoặc bất kỳ đoạn mã Python nào do Người dùng hoặc bên thứ ba viết và nạp vào Phần mềm.
+
+1.8. "Khoá bản quyền": mã kích hoạt (nếu có) do Quant Percent cấp để sử dụng Phần mềm hoặc một số tính năng của Phần mềm.
+
+ĐIỀU 2. PHẠM VI ÁP DỤNG VÀ HIỆU LỰC
+
+2.1. Điều khoản này là thoả thuận ràng buộc giữa Bạn và Quant Percent về việc cài đặt và sử dụng QP Terminal.
+
+2.2. Điều khoản có hiệu lực kể từ thời điểm Bạn chấp thuận trong trình cài đặt, hoặc từ lần đầu tiên Bạn sử dụng Phần mềm, tuỳ thời điểm nào đến trước.
+
+2.3. Các chính sách được công bố trên https://quantpercent.com (bao gồm chính sách giá, thanh toán, hoàn tiền, hỗ trợ và quyền riêng tư, nếu có) là một phần không tách rời của Điều khoản này. Nếu có mâu thuẫn giữa văn bản này và chính sách trên website về cùng một vấn đề, văn bản có ngày hiệu lực muộn hơn được ưu tiên áp dụng.
+
+ĐIỀU 3. ĐIỀU KIỆN SỬ DỤNG
+
+3.1. Bạn phải đủ 18 tuổi trở lên và có đầy đủ năng lực hành vi dân sự theo pháp luật nơi Bạn cư trú.
+
+3.2. Bạn chịu trách nhiệm bảo đảm rằng việc sử dụng Phần mềm, cũng như việc giao dịch các sản phẩm tài chính mà Bạn nghiên cứu bằng Phần mềm, là hợp pháp tại nơi Bạn cư trú.
+
+3.3. Bạn cam kết cung cấp thông tin chính xác khi đăng ký, mua hoặc kích hoạt Khoá bản quyền (nếu có).
+
+
+================================================================
+PHẦN B. TUYÊN BỐ KHÔNG KHUYẾN NGHỊ ĐẦU TƯ VÀ CẢNH BÁO RỦI RO
+================================================================
+
+ĐIỀU 4. QP TERMINAL KHÔNG PHẢI LỜI KHUYÊN ĐẦU TƯ
+
+4.1. QP Terminal là công cụ nghiên cứu và phân tích định lượng. Phần mềm giúp Bạn vẽ biểu đồ, tính chỉ báo, kiểm thử chiến lược trên dữ liệu quá khứ, mô phỏng và thống kê. Mọi Kết quả phân tích chỉ nhằm mục đích thông tin, học tập và nghiên cứu.
+
+4.2. Không một nội dung nào trong Phần mềm, trên website quantpercent.com, trong tài liệu, tin nhắn thông báo (kể cả tin nhắn Telegram) hay trong bất kỳ trao đổi hỗ trợ nào được xem là:
+   a) khuyến nghị mua, bán, nắm giữ hay không nắm giữ bất kỳ cổ phiếu, chứng chỉ quỹ, chứng quyền, trái phiếu, hợp đồng phái sinh, tiền mã hoá, hàng hoá, ngoại tệ hay công cụ tài chính nào;
+   b) tư vấn đầu tư, tư vấn tài chính, tư vấn chứng khoán, tư vấn thuế, tư vấn kế toán hay tư vấn pháp lý;
+   c) cam kết hay dự báo về lợi nhuận, về giá, hay về kết quả đầu tư.
+
+4.3. Một tín hiệu mua hoặc bán do chiến lược hay chỉ báo tạo ra chỉ là kết quả tính toán theo quy tắc mà chiến lược đó được lập trình, không phải lời khuyên của Quant Percent.
+
+4.4. Quant Percent không phải là công ty chứng khoán, không phải công ty quản lý quỹ, không phải nhà môi giới, không được cấp phép tư vấn đầu tư, và không nhận, không chuyển, không thực hiện lệnh giao dịch thật thay cho Bạn. Quant Percent không giữ tiền hay tài sản của Bạn.
+
+4.5. Trước khi ra bất kỳ quyết định đầu tư nào, Bạn nên tự nghiên cứu độc lập và, khi cần, tham khảo ý kiến của chuyên gia được cấp phép phù hợp với hoàn cảnh tài chính của riêng Bạn.
+
+ĐIỀU 5. KẾT QUẢ BACKTEST VÀ GIAO DỊCH GIẢ LẬP KHÔNG BẢO ĐẢM KẾT QUẢ THỰC TẾ
+
+5.1. Kết quả trong quá khứ không bảo đảm và không phải là chỉ dấu đáng tin cậy cho kết quả trong tương lai.
+
+5.2. Backtest và Giao dịch giả lập được tính dựa trên các giả định mô phỏng, bao gồm nhưng không giới hạn ở: mức phí và thuế; trượt giá cố định theo tỷ lệ; khớp lệnh do tín hiệu ở giá mở của nến kế tiếp; cắt lỗ và chốt lời khớp tại mức đã đặt; quy tắc thanh toán T+2,5, lô 100 cổ phiếu, bước giá và biên độ dao động của thị trường cơ sở Việt Nam; tỷ lệ ký quỹ phái sinh theo mặc định có thể chỉnh sửa. Các giả định này có thể không trùng với điều kiện thật tại thời điểm Bạn giao dịch.
+
+5.3. Thực tế có thể khác xa kết quả mô phỏng vì những yếu tố Phần mềm không mô phỏng hoặc mô phỏng không đầy đủ, ví dụ: thanh khoản không đủ, lệnh không khớp hoặc chỉ khớp một phần, giá nhảy qua mức đặt lệnh, phiên ATO/ATC, tạm ngừng giao dịch, thay đổi quy định, phí lưu ký, lãi vay ký quỹ, cổ tức, sự cố hệ thống của công ty chứng khoán, độ trễ đường truyền và yếu tố tâm lý của chính Bạn.
+
+5.4. Giá cổ phiếu Việt Nam trong Phần mềm được điều chỉnh các sự kiện chia tách, thưởng cổ phiếu bằng phép suy luận từ chính biến động giá (mỗi phiên biến động vượt quá ngưỡng được coi là một sự kiện doanh nghiệp), không phải tra cứu từ lịch sử sự kiện doanh nghiệp chính thức. Cổ tức bằng tiền mặt không được điều chỉnh. Việc điều chỉnh có thể sai, và Bạn có thể tắt nó trong phần cài đặt.
+
+5.5. Việc tối ưu hoá tham số trên dữ liệu quá khứ dễ dẫn đến quá khớp (overfitting). Một kết quả đẹp trên dữ liệu quá khứ không chứng minh chiến lược có lợi thế thật. Các kiểm định thống kê mà Phần mềm cung cấp đều có giả định và giới hạn riêng, được mô tả trong phần giải thích (nút i) của từng chỉ số.
+
+5.6. Kết quả Giao dịch giả lập dùng tiền ảo. Không có tiền thật nào được thu, chi hay lưu giữ.
+
+ĐIỀU 6. CẢNH BÁO RỦI RO GIAO DỊCH
+
+6.1. Giao dịch chứng khoán, hợp đồng phái sinh, chứng quyền, tiền mã hoá, hàng hoá và ngoại hối có mức rủi ro cao và có thể không phù hợp với mọi nhà đầu tư. Bạn có thể mất một phần hoặc toàn bộ số vốn đầu tư.
+
+6.2. Giao dịch sử dụng đòn bẩy, ký quỹ hoặc hợp đồng phái sinh có thể khiến Bạn lỗ vượt quá số vốn ban đầu và phải nộp thêm tiền, hoặc bị bán giải chấp, thanh lý vị thế ngoài ý muốn.
+
+6.3. Thị trường tiền mã hoá hoạt động liên tục, biến động rất mạnh và có thể chịu quy định pháp lý khác nhau hoặc chưa rõ ràng tại từng quốc gia.
+
+6.4. Bạn chỉ nên giao dịch bằng số tiền mà Bạn có thể chấp nhận mất. Mọi quyết định giao dịch, mọi khoản lãi, lỗ, thuế và nghĩa vụ phát sinh từ các quyết định đó hoàn toàn thuộc trách nhiệm của Bạn.
+
+
+================================================================
+PHẦN C. DỮ LIỆU, TÍNH NĂNG VÀ MÃ DO NGƯỜI DÙNG VIẾT
+================================================================
+
+ĐIỀU 7. DỮ LIỆU THỊ TRƯỜNG
+
+7.1. Dữ liệu thị trường có thể bị chậm, thiếu, sai, trùng lặp, bị điều chỉnh sau đó hoặc bị gián đoạn do nguồn dữ liệu, do sàn giao dịch, do nhà cung cấp bên thứ ba, do đường truyền Internet hoặc do lỗi của Phần mềm.
+
+7.2. Với thị trường Việt Nam, mức chi tiết cao nhất là nến 1 phút; Phần mềm không có dữ liệu từng lệnh khớp (tick). Dữ liệu thời gian thực chỉ cập nhật sau khi mỗi phút kết thúc, và có thể trễ.
+
+7.3. Bạn có trách nhiệm đối chiếu với nguồn chính thức (sở giao dịch, công ty chứng khoán, sàn giao dịch) trước khi ra quyết định. Quant Percent không cam kết Dữ liệu thị trường luôn đầy đủ, chính xác, kịp thời hay luôn sẵn có.
+
+7.4. Dữ liệu thị trường được cung cấp để Bạn sử dụng cho mục đích cá nhân trong Phần mềm. Bạn không được sao chép hàng loạt, bán lại, phân phối lại, công bố hay cung cấp Dữ liệu thị trường lấy từ Phần mềm cho bên thứ ba, hoặc dùng nó để xây dựng sản phẩm, dịch vụ cạnh tranh, trừ khi được Quant Percent đồng ý bằng văn bản.
+
+7.5. Một số dữ liệu (ví dụ dữ liệu Bitcoin từ Binance) được Phần mềm tải trực tiếp từ nhà cung cấp bên thứ ba về máy của Bạn. Việc sử dụng dữ liệu đó còn chịu điều khoản của chính nhà cung cấp.
+
+7.6. Quyền truy cập Dữ liệu thị trường thông qua dịch vụ của Quant Percent có thể phụ thuộc vào Khoá bản quyền còn hiệu lực và vào kết nối Internet. Khi không kiểm tra được Khoá bản quyền trong một thời gian nhất định, một số dữ liệu có thể tạm thời không truy cập được.
+
+ĐIỀU 8. GIAO DỊCH GIẢ LẬP, CẢNH BÁO VÀ THÔNG BÁO
+
+8.1. Cảnh báo giá, cảnh báo theo điều kiện, cảnh báo ký quỹ và thông báo qua Telegram chỉ hoạt động khi QP Terminal đang chạy trên máy của Bạn, có kết nối Internet và dữ liệu cập nhật bình thường. Chúng có thể đến trễ, đến sai hoặc không đến.
+
+8.2. Bạn không được dựa vào cảnh báo hay thông báo của Phần mềm như công cụ quản trị rủi ro duy nhất cho tài khoản giao dịch thật. Tỷ lệ ký quỹ, tỷ lệ an toàn tài khoản do Phần mềm tính chỉ là ước tính theo thông tin Bạn nhập; số liệu của công ty chứng khoán là số liệu chính thức.
+
+ĐIỀU 9. MÃ DO NGƯỜI DÙNG VIẾT VÀ PLUGIN
+
+9.1. Phần mềm cho phép Bạn nạp và chạy Mã do Người dùng viết. Mã này chạy trực tiếp trên máy tính của Bạn, với đầy đủ quyền của tài khoản Windows đang dùng, và có thể đọc, sửa, xoá tệp hoặc kết nối mạng.
+
+9.2. Chỉ chạy mã mà Bạn hiểu và tin tưởng. Không chạy mã từ nguồn không rõ ràng.
+
+9.3. Khi Bạn cho phép, Phần mềm có thể tự cài thêm thư viện Python mà mã của Bạn cần từ kho phần mềm công khai. Việc cài thư viện của bên thứ ba là quyết định của Bạn.
+
+9.4. Bạn giữ mọi quyền đối với Mã do Người dùng viết. Quant Percent không thu thập, không xem và không chịu trách nhiệm về nội dung, kết quả hay thiệt hại do Mã do Người dùng viết gây ra.
+
+
+================================================================
+PHẦN D. QUYỀN SỬ DỤNG, KHOÁ BẢN QUYỀN VÀ PHÍ
+================================================================
+
+ĐIỀU 10. CẤP QUYỀN SỬ DỤNG
+
+10.1. Với điều kiện Bạn tuân thủ Điều khoản này, Quant Percent cấp cho Bạn quyền sử dụng Phần mềm có giới hạn, không độc quyền, không chuyển nhượng, không cấp lại, có thể thu hồi, cho mục đích cá nhân của Bạn.
+
+10.2. Phần mềm được cấp quyền sử dụng, không phải được bán. Quant Percent giữ toàn bộ quyền sở hữu, quyền tác giả và các quyền sở hữu trí tuệ khác đối với Phần mềm, tên gọi QP Terminal, tên và biểu trưng Quant Percent, giao diện, tài liệu và các plugin mẫu.
+
+ĐIỀU 11. KHOÁ BẢN QUYỀN VÀ KÍCH HOẠT
+
+11.1. Một số phiên bản hoặc tính năng của Phần mềm có thể yêu cầu Khoá bản quyền. Mỗi Khoá bản quyền chỉ dùng cho một người và cho số thiết bị giới hạn theo gói Bạn đăng ký.
+
+11.2. Bạn có trách nhiệm giữ bí mật Khoá bản quyền. Không chia sẻ, bán, cho mượn hay công bố khoá. Quant Percent có quyền khoá hoặc thu hồi Khoá bản quyền bị chia sẻ, bị dùng vượt số thiết bị cho phép hoặc bị dùng vi phạm Điều khoản này.
+
+11.3. Để kiểm tra Khoá bản quyền, Phần mềm có thể gửi tới máy chủ của Quant Percent mã khoá và một mã định danh thiết bị không chứa thông tin cá nhân.
+
+ĐIỀU 12. PHÍ, THANH TOÁN VÀ HOÀN TIỀN
+
+12.1. Giá, thời hạn và nội dung các gói sử dụng (nếu có) được công bố trên https://quantpercent.com tại thời điểm Bạn mua.
+
+12.2. Việc thanh toán, gia hạn, huỷ gói và hoàn tiền tuân theo chính sách được công bố trên website tại thời điểm mua. Trừ khi chính sách đó hoặc pháp luật bắt buộc quy định khác, khoản phí đã thanh toán không được hoàn lại.
+
+12.3. Bạn tự chịu các khoản thuế, phí ngân hàng hay phí chuyển tiền phát sinh từ phía Bạn.
+
+ĐIỀU 13. HÀNH VI BỊ CẤM
+
+Bạn không được:
+   a) sao chép, sửa đổi, dịch ngược, giải mã, tháo rời hoặc tìm cách lấy mã nguồn của Phần mềm, trừ khi pháp luật bắt buộc cho phép;
+   b) bán lại, cho thuê, cho mượn, cấp phép lại hoặc phân phối Phần mềm, Khoá bản quyền hay Dữ liệu thị trường lấy từ Phần mềm;
+   c) vượt qua, vô hiệu hoá hay can thiệp vào cơ chế kiểm tra Khoá bản quyền, giới hạn truy cập hoặc biện pháp bảo vệ của Phần mềm và của máy chủ dữ liệu;
+   d) gửi yêu cầu tự động với tần suất bất thường, khai thác hàng loạt dữ liệu, hoặc làm quá tải máy chủ của Quant Percent;
+   e) gỡ bỏ, che giấu hay thay đổi thông tin bản quyền, nhãn hiệu, ghi công của Quant Percent hoặc của các thành phần bên thứ ba (bao gồm biểu trưng TradingView trên biểu đồ);
+   f) sử dụng Phần mềm để thực hiện hành vi thao túng thị trường, lừa đảo, rửa tiền hoặc bất kỳ hành vi vi phạm pháp luật nào;
+   g) quảng cáo, giới thiệu Kết quả phân tích của Phần mềm như lời khuyên đầu tư của Quant Percent, hoặc như cam kết lợi nhuận.
+
+
+================================================================
+PHẦN E. DỮ LIỆU CỦA BẠN VÀ QUYỀN RIÊNG TƯ
+================================================================
+
+ĐIỀU 14. DỮ LIỆU LƯU TRÊN MÁY CỦA BẠN
+
+14.1. Cài đặt, phiên Giao dịch giả lập, nhật ký giao dịch, cảnh báo, plugin của Bạn, dữ liệu đã tải về và tệp nhật ký lỗi được lưu trên máy của Bạn, trong thư mục %APPDATA%\QuantPercent.
+
+14.2. Mã bot và mã cuộc trò chuyện Telegram, nếu Bạn nhập, chỉ được lưu trên máy của Bạn và chỉ dùng để gửi thông báo đến chính Bạn qua dịch vụ Telegram. Việc sử dụng Telegram chịu điều khoản của Telegram.
+
+14.3. Tệp nhật ký lỗi không tự động được gửi đi. Khi cần hỗ trợ, Bạn có thể tự gửi tệp này cho chúng tôi; hãy kiểm tra nội dung trước khi gửi.
+
+14.4. Khi gỡ cài đặt, Bạn được hỏi có muốn chuyển dữ liệu của mình vào Thùng rác hay không. Nếu Bạn chọn giữ lại, dữ liệu sẽ được dùng lại khi Bạn cài đặt lại. Bạn có trách nhiệm tự sao lưu dữ liệu quan trọng.
+
+ĐIỀU 15. DỮ LIỆU GỬI TỚI QUANT PERCENT
+
+15.1. Khi Bạn dùng dữ liệu hoặc dịch vụ trực tuyến của Quant Percent, máy chủ của chúng tôi nhận các yêu cầu cần thiết để phục vụ Bạn (ví dụ mã chứng khoán, khung thời gian, Khoá bản quyền, địa chỉ IP, thời điểm truy cập) và có thể ghi nhật ký kỹ thuật để vận hành, bảo mật, chống lạm dụng và thống kê mức sử dụng.
+
+15.2. Quant Percent không bán thông tin cá nhân của Bạn. Chi tiết về việc thu thập và xử lý thông tin cá nhân (nếu có) được nêu trong chính sách quyền riêng tư công bố trên https://quantpercent.com.
+
+
+================================================================
+PHẦN F. CẬP NHẬT, THÀNH PHẦN BÊN THỨ BA, CHẤM DỨT
+================================================================
+
+ĐIỀU 16. CẬP NHẬT VÀ THAY ĐỔI PHẦN MỀM
+
+16.1. Quant Percent có thể phát hành bản cập nhật để sửa lỗi, bổ sung, thay đổi hoặc ngừng một số tính năng. Một số bản cập nhật có thể cần thiết để Phần mềm tiếp tục truy cập dữ liệu.
+
+16.2. Việc thay đổi phương pháp tính (ví dụ cách khớp lệnh, cách điều chỉnh giá) có thể làm kết quả backtest của cùng một chiến lược thay đổi giữa các phiên bản.
+
+ĐIỀU 17. THÀNH PHẦN CỦA BÊN THỨ BA
+
+17.1. Phần mềm sử dụng các thư viện và thành phần của bên thứ ba, bao gồm thư viện biểu đồ TradingView Lightweight Charts, Microsoft Edge WebView2 và các thư viện mã nguồn mở khác. Mỗi thành phần chịu giấy phép riêng của nó.
+
+17.2. Biểu trưng và đường dẫn TradingView hiển thị trên biểu đồ là yêu cầu của giấy phép và không được gỡ bỏ.
+
+17.3. Quant Percent không chịu trách nhiệm về dịch vụ, dữ liệu hay nội dung do bên thứ ba cung cấp (sàn giao dịch, Binance, Telegram, nhà cung cấp dữ liệu, kho thư viện Python).
+
+ĐIỀU 18. CHẤM DỨT
+
+18.1. Bạn có thể ngừng sử dụng Phần mềm bất cứ lúc nào bằng cách gỡ cài đặt.
+
+18.2. Quant Percent có thể tạm ngừng hoặc chấm dứt quyền sử dụng của Bạn, hoặc thu hồi Khoá bản quyền, nếu Bạn vi phạm Điều khoản này. Trong trường hợp đó, khoản phí đã thanh toán không được hoàn lại, trừ khi pháp luật bắt buộc quy định khác.
+
+18.3. Khi quyền sử dụng chấm dứt, Bạn phải ngừng sử dụng và gỡ bỏ Phần mềm. Các Điều 4 đến 6, 9, 13, 19 đến 22 vẫn tiếp tục có hiệu lực sau khi chấm dứt.
+
+
+================================================================
+PHẦN G. MIỄN TRỪ VÀ GIỚI HẠN TRÁCH NHIỆM
+================================================================
+
+ĐIỀU 19. KHÔNG BẢO ĐẢM
+
+19.1. Phần mềm, Dữ liệu thị trường và Kết quả phân tích được cung cấp theo nguyên trạng ("as is") và theo khả năng sẵn có ("as available").
+
+19.2. Trong phạm vi tối đa pháp luật cho phép, Quant Percent không đưa ra bất kỳ bảo đảm nào, dù rõ ràng hay ngầm định, bao gồm bảo đảm về độ chính xác, tính đầy đủ, tính kịp thời, độ tin cậy, tính phù hợp cho một mục đích cụ thể, việc không vi phạm quyền của bên thứ ba, việc Phần mềm hoạt động liên tục, không lỗi, không có mã độc, hay việc lỗi sẽ được sửa.
+
+ĐIỀU 20. GIỚI HẠN TRÁCH NHIỆM
+
+20.1. Trong phạm vi tối đa pháp luật cho phép, Quant Percent, các thành viên, nhân sự và cộng tác viên của Quant Percent không chịu trách nhiệm đối với bất kỳ thiệt hại nào phát sinh từ hoặc liên quan đến việc Bạn sử dụng hoặc không thể sử dụng Phần mềm, bao gồm nhưng không giới hạn ở: thua lỗ giao dịch, mất lợi nhuận, mất cơ hội kinh doanh, mất hoặc hỏng dữ liệu, gián đoạn công việc, và các thiệt hại gián tiếp, ngẫu nhiên, đặc biệt hay mang tính hệ quả, kể cả khi đã được thông báo về khả năng xảy ra thiệt hại đó.
+
+20.2. Trong mọi trường hợp, tổng trách nhiệm của Quant Percent đối với Bạn, nếu có, không vượt quá tổng số tiền Bạn đã thực trả cho Quant Percent để sử dụng Phần mềm trong 12 tháng liền trước sự kiện làm phát sinh trách nhiệm.
+
+20.3. Một số pháp luật không cho phép loại trừ hoặc giới hạn một số trách nhiệm nhất định. Trong trường hợp đó, các loại trừ và giới hạn ở trên chỉ áp dụng trong phạm vi pháp luật cho phép.
+
+ĐIỀU 21. BỒI HOÀN
+
+Bạn đồng ý bồi hoàn và bảo vệ Quant Percent khỏi mọi khiếu nại, thiệt hại, chi phí (bao gồm chi phí pháp lý hợp lý) phát sinh từ việc Bạn vi phạm Điều khoản này, vi phạm pháp luật, hoặc từ Mã do Người dùng viết mà Bạn chạy hay phân phối.
+
+
+================================================================
+PHẦN H. ĐIỀU KHOẢN CHUNG
+================================================================
+
+ĐIỀU 22. LUẬT ÁP DỤNG VÀ GIẢI QUYẾT TRANH CHẤP
+
+22.1. Điều khoản này được điều chỉnh và giải thích theo pháp luật nước Cộng hoà Xã hội Chủ nghĩa Việt Nam.
+
+22.2. Mọi tranh chấp phát sinh trước hết được giải quyết bằng thương lượng. Nếu không thương lượng được trong vòng 30 ngày kể từ khi một bên thông báo tranh chấp, tranh chấp sẽ được giải quyết tại cơ quan có thẩm quyền theo quy định của pháp luật Việt Nam.
+
+ĐIỀU 23. THAY ĐỔI ĐIỀU KHOẢN
+
+23.1. Quant Percent có thể sửa đổi Điều khoản này. Bản sửa đổi được công bố trên https://quantpercent.com và/hoặc hiển thị trong trình cài đặt, bản cập nhật của Phần mềm.
+
+23.2. Việc Bạn tiếp tục cài đặt hoặc sử dụng phiên bản mới sau khi điều khoản được sửa đổi đồng nghĩa với việc Bạn chấp thuận bản sửa đổi đó.
+
+ĐIỀU 24. ĐIỀU KHOẢN KHÁC
+
+24.1. Nếu một điều khoản bị cơ quan có thẩm quyền xác định là vô hiệu hoặc không thể thi hành, các điều khoản còn lại vẫn giữ nguyên hiệu lực.
+
+24.2. Việc Quant Percent chưa thực thi một quyền không có nghĩa là từ bỏ quyền đó.
+
+24.3. Bạn không được chuyển giao quyền và nghĩa vụ theo Điều khoản này cho người khác nếu không có sự đồng ý bằng văn bản của Quant Percent.
+
+24.4. Điều khoản này được lập bằng tiếng Việt và tiếng Anh. Nếu có khác biệt giữa hai bản, bản tiếng Việt được ưu tiên áp dụng.
+
+ĐIỀU 25. LIÊN HỆ
+
+Mọi câu hỏi, yêu cầu hỗ trợ, khiếu nại hoặc thông báo liên quan đến QP Terminal và Điều khoản này, vui lòng liên hệ Quant Percent qua các kênh được công bố tại https://quantpercent.com.
+
+---
+Bằng việc đánh dấu ô chấp thuận bên dưới, Bạn xác nhận đã đọc, hiểu và đồng ý với toàn bộ Điều khoản sử dụng, Tuyên bố không khuyến nghị đầu tư và Miễn trừ trách nhiệm của QP Terminal.

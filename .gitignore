@@ -1,0 +1,4 @@
+# The installer is published under Releases, never committed (GitHub caps files at 100 MB).
+*.exe
+*.zip
+.env

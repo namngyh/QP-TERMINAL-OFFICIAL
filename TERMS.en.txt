@@ -1,0 +1,273 @@
+﻿QP TERMINAL
+TERMS OF USE, NO-INVESTMENT-ADVICE STATEMENT AND DISCLAIMER
+
+Publisher: Quant Percent
+Website: https://quantpercent.com
+Terms version: 1.0, for QP Terminal 0.1.0
+
+PLEASE READ THIS WHOLE DOCUMENT CAREFULLY BEFORE INSTALLING.
+
+By ticking "I accept the terms" and continuing the installation, or by using QP Terminal in any way, you confirm that you have read, understood and agree to be bound by all of the terms below. If you do not agree with any term, choose "Cancel", do not install and do not use the software.
+
+
+================================================================
+PART A. GENERAL
+================================================================
+
+ARTICLE 1. DEFINITIONS
+
+In this document:
+
+1.1. "Quant Percent", "we", "us": the developer and publisher of QP Terminal, whose details are published at https://quantpercent.com.
+
+1.2. "QP Terminal", "the Software": the QP Terminal desktop application, including the installer, program files, interface, accompanying documentation, updates, fixes, example plugins and every component Quant Percent supplies with it.
+
+1.3. "You", "the User": the individual who installs or uses the Software.
+
+1.4. "Market Data": prices, volumes, bars, indices and any financial data the Software shows or uses, whether it comes from Quant Percent, an exchange, a third-party provider, or is loaded by the User.
+
+1.5. "Analysis Results": every indicator, signal, chart, backtest result, parameter optimisation, walk-forward test, Monte Carlo simulation, statistic, alert, simulated-trading result and any figure or statement the Software produces.
+
+1.6. "Simulated Trading" (Paper trading): the feature that simulates placing orders and tracking profit and loss with virtual money. It never creates a real transaction.
+
+1.7. "User Code": any indicator, strategy, plugin or Python code written by the User or by a third party and loaded into the Software.
+
+1.8. "Licence Key": an activation code (if any) issued by Quant Percent to use the Software or some of its features.
+
+ARTICLE 2. SCOPE AND EFFECT
+
+2.1. These Terms are a binding agreement between You and Quant Percent about installing and using QP Terminal.
+
+2.2. These Terms take effect when You accept them in the installer, or when You first use the Software, whichever comes first.
+
+2.3. The policies published at https://quantpercent.com (including pricing, payment, refund, support and privacy policies, if any) form part of these Terms. Where this document and a website policy conflict on the same matter, the one with the later effective date prevails.
+
+ARTICLE 3. ELIGIBILITY
+
+3.1. You must be at least 18 years old and have full legal capacity under the law of the place where You live.
+
+3.2. You are responsible for making sure that using the Software, and trading the financial products You research with it, is lawful where You live.
+
+3.3. You undertake to provide accurate information when You register, buy or activate a Licence Key (if any).
+
+
+================================================================
+PART B. NO INVESTMENT ADVICE AND RISK WARNING
+================================================================
+
+ARTICLE 4. QP TERMINAL IS NOT INVESTMENT ADVICE
+
+4.1. QP Terminal is a quantitative research and analysis tool. It helps You draw charts, compute indicators, test strategies on historical data, simulate and run statistics. All Analysis Results are for information, education and research only.
+
+4.2. Nothing in the Software, on quantpercent.com, in the documentation, in notifications (including Telegram messages) or in any support exchange is, or should be taken as:
+   a) a recommendation to buy, sell, hold or not hold any share, fund certificate, covered warrant, bond, derivative, cryptocurrency, commodity, currency or other financial instrument;
+   b) investment, financial, securities, tax, accounting or legal advice;
+   c) a promise or forecast of profit, of prices, or of investment results.
+
+4.3. A buy or sell signal produced by a strategy or indicator is only the result of the rules that strategy was programmed with. It is not advice from Quant Percent.
+
+4.4. Quant Percent is not a securities company, a fund manager or a broker, is not licensed to give investment advice, and does not accept, route or execute real orders on Your behalf. Quant Percent does not hold Your money or assets.
+
+4.5. Before any investment decision, You should do Your own independent research and, where appropriate, consult a licensed professional who can take Your own financial situation into account.
+
+ARTICLE 5. BACKTESTS AND SIMULATED TRADING DO NOT GUARANTEE REAL RESULTS
+
+5.1. Past performance does not guarantee, and is not a reliable indicator of, future results.
+
+5.2. Backtests and Simulated Trading rest on simulation assumptions, including but not limited to: fees and taxes; slippage at a fixed rate; signal orders filled at the next bar's open; stop-loss and take-profit orders filled at their set level; the T+2.5 settlement rule, 100-share lots, tick sizes and price limits of the Vietnamese cash market; derivatives margin rates set by default and editable. These assumptions may not match real conditions when You trade.
+
+5.3. Reality can differ widely from the simulation because of factors the Software does not simulate, or simulates only in part, for example: insufficient liquidity, unfilled or partly filled orders, prices gapping through an order level, the ATO/ATC auctions, trading halts, rule changes, custody fees, margin interest, dividends, outages at Your broker, network delays and Your own behaviour.
+
+5.4. Vietnamese share prices in the Software are adjusted for splits and bonus shares by inference from the price moves themselves (a session that moves beyond a threshold is treated as a corporate action), not looked up from an official corporate-action history. Cash dividends are not adjusted. The adjustment can be wrong, and You can turn it off in the settings.
+
+5.5. Optimising parameters on historical data easily overfits. A good-looking result on past data does not prove that a strategy has a real edge. Every statistical test in the Software has its own assumptions and limits, described in the explanation (the i button) of each measure.
+
+5.6. Simulated Trading uses virtual money. No real money is collected, paid or held.
+
+ARTICLE 6. TRADING RISK WARNING
+
+6.1. Trading shares, derivatives, covered warrants, cryptocurrencies, commodities and foreign exchange is high risk and may not suit every investor. You can lose part or all of Your capital.
+
+6.2. Trading with leverage, on margin or in derivatives can lose more than Your initial capital, can require You to deposit more money, and can lead to forced selling or liquidation of Your positions.
+
+6.3. Cryptocurrency markets trade around the clock, are highly volatile and may be regulated differently, or not clearly, in different countries.
+
+6.4. Trade only with money You can afford to lose. Every trading decision, and every gain, loss, tax and obligation arising from it, is Your sole responsibility.
+
+
+================================================================
+PART C. DATA, FEATURES AND USER CODE
+================================================================
+
+ARTICLE 7. MARKET DATA
+
+7.1. Market Data can be delayed, incomplete, wrong, duplicated, later revised or interrupted, because of the source, the exchange, a third-party provider, the Internet connection or a fault in the Software.
+
+7.2. For the Vietnamese market the finest detail is one-minute bars; the Software has no trade-by-trade (tick) data. Real-time data updates only after each minute ends and can be late.
+
+7.3. You are responsible for checking against official sources (the exchange, Your broker) before any decision. Quant Percent does not promise that Market Data is always complete, accurate, timely or available.
+
+7.4. Market Data is provided for Your personal use inside the Software. You may not bulk-copy, resell, redistribute, publish or provide Market Data taken from the Software to any third party, or use it to build a competing product or service, without Quant Percent's written consent.
+
+7.5. Some data (for example Bitcoin data from Binance) is downloaded by the Software directly from a third-party provider to Your computer. Its use is also subject to that provider's own terms.
+
+7.6. Access to Market Data through Quant Percent's services may depend on a valid Licence Key and an Internet connection. If the Licence Key cannot be checked for a certain period, some data may become temporarily unavailable.
+
+ARTICLE 8. SIMULATED TRADING, ALERTS AND NOTIFICATIONS
+
+8.1. Price alerts, condition alerts, margin alerts and Telegram notifications work only while QP Terminal is running on Your computer, is connected to the Internet and receives normal data updates. They can arrive late, arrive wrong or not arrive at all.
+
+8.2. You must not rely on the Software's alerts or notifications as the only risk-management tool for a real trading account. Margin ratios and account-safety ratios computed by the Software are estimates from the information You enter; Your broker's figures are the official ones.
+
+ARTICLE 9. USER CODE AND PLUGINS
+
+9.1. The Software lets You load and run User Code. That code runs directly on Your computer with the full permissions of the Windows account You use, and can read, change or delete files and connect to the network.
+
+9.2. Run only code You understand and trust. Do not run code from unknown sources.
+
+9.3. When You allow it, the Software can install Python libraries that Your code needs from public package repositories. Installing third-party libraries is Your decision.
+
+9.4. You keep all rights to Your User Code. Quant Percent does not collect or review it and is not responsible for its content, its results or any damage it causes.
+
+
+================================================================
+PART D. LICENCE, LICENCE KEY AND FEES
+================================================================
+
+ARTICLE 10. LICENCE TO USE
+
+10.1. Provided You comply with these Terms, Quant Percent grants You a limited, non-exclusive, non-transferable, non-sublicensable and revocable right to use the Software for Your personal purposes.
+
+10.2. The Software is licensed, not sold. Quant Percent keeps all ownership, copyright and other intellectual property rights in the Software, the QP Terminal name, the Quant Percent name and logo, the interface, the documentation and the example plugins.
+
+ARTICLE 11. LICENCE KEY AND ACTIVATION
+
+11.1. Some versions or features of the Software may require a Licence Key. Each Licence Key is for one person and for the limited number of devices of the plan You subscribe to.
+
+11.2. You must keep Your Licence Key confidential. Do not share, sell, lend or publish it. Quant Percent may block or revoke a Licence Key that is shared, used on more devices than allowed, or used in breach of these Terms.
+
+11.3. To check the Licence Key, the Software may send Quant Percent's servers the key and a device identifier that contains no personal information.
+
+ARTICLE 12. FEES, PAYMENT AND REFUNDS
+
+12.1. Prices, durations and contents of plans (if any) are those published at https://quantpercent.com when You buy.
+
+12.2. Payment, renewal, cancellation and refunds follow the policy published on the website when You buy. Unless that policy or mandatory law says otherwise, fees paid are not refundable.
+
+12.3. You bear any taxes, bank charges or transfer fees arising on Your side.
+
+ARTICLE 13. PROHIBITED USE
+
+You must not:
+   a) copy, modify, reverse engineer, decompile, disassemble or try to obtain the source code of the Software, except where mandatory law allows it;
+   b) resell, rent, lend, sublicense or distribute the Software, a Licence Key or Market Data taken from the Software;
+   c) bypass, disable or interfere with the Licence Key check, access limits or any protection of the Software or of the data servers;
+   d) send automated requests at abnormal rates, harvest data in bulk, or overload Quant Percent's servers;
+   e) remove, hide or change copyright, trademark or attribution notices of Quant Percent or of third-party components (including the TradingView logo on charts);
+   f) use the Software for market manipulation, fraud, money laundering or any unlawful act;
+   g) advertise or present Analysis Results of the Software as investment advice from Quant Percent, or as a promise of profit.
+
+
+================================================================
+PART E. YOUR DATA AND PRIVACY
+================================================================
+
+ARTICLE 14. DATA STORED ON YOUR COMPUTER
+
+14.1. Your settings, Simulated Trading sessions, trading journal, alerts, plugins, downloaded data and error log are stored on Your computer, in %APPDATA%\QuantPercent.
+
+14.2. A Telegram bot token and chat id, if You enter them, are stored only on Your computer and used only to send notifications to You through Telegram. Your use of Telegram is subject to Telegram's terms.
+
+14.3. The error log is never sent automatically. When You need support You may send it to us yourself; check its contents before sending.
+
+14.4. When uninstalling, You are asked whether to move Your data to the Recycle Bin. If You keep it, it is used again when You reinstall. You are responsible for backing up data that matters to You.
+
+ARTICLE 15. DATA SENT TO QUANT PERCENT
+
+15.1. When You use Quant Percent's data or online services, our servers receive what is needed to serve You (for example symbols, timeframes, the Licence Key, Your IP address, access times) and may keep technical logs for operation, security, abuse prevention and usage statistics.
+
+15.2. Quant Percent does not sell Your personal information. How personal information is collected and processed (if at all) is set out in the privacy policy published at https://quantpercent.com.
+
+
+================================================================
+PART F. UPDATES, THIRD-PARTY COMPONENTS, TERMINATION
+================================================================
+
+ARTICLE 16. UPDATES AND CHANGES TO THE SOFTWARE
+
+16.1. Quant Percent may release updates that fix, add, change or discontinue features. Some updates may be required for the Software to keep accessing data.
+
+16.2. A change to a calculation method (for example how orders are filled or how prices are adjusted) can change the backtest results of the same strategy between versions.
+
+ARTICLE 17. THIRD-PARTY COMPONENTS
+
+17.1. The Software uses third-party libraries and components, including the TradingView Lightweight Charts library, Microsoft Edge WebView2 and other open-source libraries. Each is subject to its own licence.
+
+17.2. The TradingView logo and link shown on charts are required by that licence and must not be removed.
+
+17.3. Quant Percent is not responsible for services, data or content provided by third parties (exchanges, Binance, Telegram, data providers, Python package repositories).
+
+ARTICLE 18. TERMINATION
+
+18.1. You may stop using the Software at any time by uninstalling it.
+
+18.2. Quant Percent may suspend or end Your right to use the Software, or revoke a Licence Key, if You breach these Terms. In that case fees paid are not refunded unless mandatory law says otherwise.
+
+18.3. When Your right to use ends, You must stop using and remove the Software. Articles 4 to 6, 9, 13 and 19 to 22 survive termination.
+
+
+================================================================
+PART G. DISCLAIMER AND LIMITATION OF LIABILITY
+================================================================
+
+ARTICLE 19. NO WARRANTY
+
+19.1. The Software, Market Data and Analysis Results are provided "as is" and "as available".
+
+19.2. To the fullest extent the law allows, Quant Percent gives no warranty of any kind, express or implied, including as to accuracy, completeness, timeliness, reliability, fitness for a particular purpose, non-infringement, uninterrupted or error-free operation, freedom from malicious code, or that errors will be fixed.
+
+ARTICLE 20. LIMITATION OF LIABILITY
+
+20.1. To the fullest extent the law allows, Quant Percent and its members, staff and contributors are not liable for any damage arising from or connected with Your use of, or inability to use, the Software, including but not limited to trading losses, lost profits, lost business opportunities, lost or corrupted data, interruption of work, and any indirect, incidental, special or consequential damage, even if told that such damage was possible.
+
+20.2. In any case, Quant Percent's total liability to You, if any, does not exceed the total amount You actually paid Quant Percent to use the Software in the 12 months before the event giving rise to the liability.
+
+20.3. Some laws do not allow certain liabilities to be excluded or limited. Where that is so, the exclusions and limits above apply only as far as the law allows.
+
+ARTICLE 21. INDEMNITY
+
+You agree to indemnify and hold Quant Percent harmless from any claim, damage or cost (including reasonable legal costs) arising from Your breach of these Terms, Your breach of the law, or User Code that You run or distribute.
+
+
+================================================================
+PART H. GENERAL PROVISIONS
+================================================================
+
+ARTICLE 22. GOVERNING LAW AND DISPUTES
+
+22.1. These Terms are governed by and construed under the law of the Socialist Republic of Vietnam.
+
+22.2. Any dispute is first to be settled by negotiation. If it is not settled within 30 days after one party gives notice of it, it is to be settled by the competent authority under Vietnamese law.
+
+ARTICLE 23. CHANGES TO THESE TERMS
+
+23.1. Quant Percent may amend these Terms. Amendments are published at https://quantpercent.com and/or shown in the installer or in an update of the Software.
+
+23.2. Continuing to install or use a new version after the Terms are amended means You accept the amendment.
+
+ARTICLE 24. MISCELLANEOUS
+
+24.1. If a competent authority finds any term invalid or unenforceable, the remaining terms stay in full effect.
+
+24.2. Quant Percent's failure to enforce a right is not a waiver of that right.
+
+24.3. You may not transfer Your rights and obligations under these Terms to anyone else without Quant Percent's written consent.
+
+24.4. These Terms are made in Vietnamese and English. If the two versions differ, the Vietnamese version prevails.
+
+ARTICLE 25. CONTACT
+
+For questions, support requests, complaints or notices about QP Terminal and these Terms, please contact Quant Percent through the channels published at https://quantpercent.com.
+
+---
+By ticking the acceptance box below, You confirm that You have read, understood and agree to all of the Terms of Use, No-Investment-Advice Statement and Disclaimer of QP Terminal.
