@@ -8,6 +8,8 @@ Phần mềm nghiên cứu chỉ báo và chiến lược giao dịch cho thị 
 
 **[Tải QP Terminal cho Windows](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/latest/download/QP-Terminal-setup.exe)**
 
+Phiên bản mới nhất: **0.1.1**. [Xem thay đổi](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.1).
+
 Hoặc vào mục [Releases](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases) để xem mọi phiên bản và ghi chú thay đổi.
 
 ## Yêu cầu
@@ -66,6 +68,8 @@ A Windows desktop application for researching trading indicators and strategies 
 ## Download
 
 **[Download QP Terminal for Windows](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/latest/download/QP-Terminal-setup.exe)**
+
+Latest version: **0.1.1**. [Release notes](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.1).
 
 All versions and release notes are under [Releases](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases).
 
