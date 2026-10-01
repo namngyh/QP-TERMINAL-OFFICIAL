@@ -8,7 +8,7 @@ Phần mềm nghiên cứu chỉ báo và chiến lược giao dịch cho thị 
 
 **[Tải QP Terminal cho Windows](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/latest/download/QP-Terminal-setup.exe)**
 
-Phiên bản mới nhất: **0.1.1**. [Xem thay đổi](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.1).
+Phiên bản mới nhất: **0.1.3**. [Xem thay đổi](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.3).
 
 Hoặc vào mục [Releases](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases) để xem mọi phiên bản và ghi chú thay đổi.
 
@@ -28,6 +28,8 @@ Hoặc vào mục [Releases](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/rel
    - Không cần quyền quản trị. App được cài vào `%LOCALAPPDATA%\Programs\QuantPercent`.
 4. Mở **QP Terminal** từ Start Menu.
 
+Để cập nhật: đóng app, tải bộ cài mới từ liên kết trên rồi cài đè. Dữ liệu cá nhân được giữ nguyên. App hiện chưa tự tải hoặc cài bản cập nhật.
+
 Nếu máy bật **Smart App Control**, Windows sẽ chặn hẳn app chưa có chữ ký số. Hiện chưa có cách chạy trên máy bật tính năng này.
 
 ## Kích hoạt
@@ -38,7 +40,9 @@ Lần đầu mở, app hiện màn hình nhập mã bản quyền.
 2. Mỗi mã dùng được trên **tối đa 2 máy**. Kích hoạt lại trên cùng một máy không tốn thêm lượt.
 3. Muốn chuyển sang máy khác: mở app, bấm **Ctrl+K**, chọn **Bản quyền**, rồi bấm **Gỡ máy này** để trả lại lượt.
 
-App kiểm tra bản quyền qua Internet mỗi 12 giờ. Mất mạng thì vẫn dùng được tối đa **3 ngày**. Sau đó app khoá lại cho tới khi kết nối lại và bấm **Kiểm tra lại**.
+Mã hiện do Quant Percent cấp sau khi xác nhận thanh toán; đăng ký tài khoản chưa tự cấp mã bản quyền.
+
+App thử kiểm tra bản quyền qua Internet mỗi 12 giờ. Mỗi lần kiểm tra thành công cho phép dùng offline tối đa **3 ngày tính từ lần kiểm tra đó**, hoặc tới ngày hết hạn bản quyền nếu sớm hơn. Sau thời hạn này, app khoá lại cho tới khi kết nối lại và bấm **Kiểm tra lại**. Nếu bản quyền vẫn hợp lệ thì dùng tiếp, không cần mua mã mới; dữ liệu đã lưu trên máy được giữ nguyên. Dữ liệu thị trường mới và giá trực tiếp cần Internet.
 
 ## Dữ liệu của bạn
 
@@ -69,7 +73,7 @@ A Windows desktop application for researching trading indicators and strategies 
 
 **[Download QP Terminal for Windows](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/latest/download/QP-Terminal-setup.exe)**
 
-Latest version: **0.1.1**. [Release notes](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.1).
+Latest version: **0.1.3**. [Release notes](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.3).
 
 All versions and release notes are under [Releases](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases).
 
@@ -89,6 +93,8 @@ All versions and release notes are under [Releases](https://github.com/namngyh/Q
    - No administrator rights are needed. The app installs to `%LOCALAPPDATA%\Programs\QuantPercent`.
 4. Start **QP Terminal** from the Start Menu.
 
+To update: close the app, download the latest installer using the link above and install over the previous version. Personal data is retained. The app does not yet download or install updates automatically.
+
 If **Smart App Control** is on, Windows blocks unsigned apps outright. There is currently no way to run QP Terminal on such a machine.
 
 ## Activate
@@ -99,7 +105,9 @@ The first time the app starts, it asks for your licence key.
 2. Each key works on **up to 2 computers**. Activating again on the same computer does not use another slot.
 3. To move to another computer: open the app, press **Ctrl+K**, choose **Licence**, then click **Release this machine** to free its slot.
 
-The app checks the licence online every 12 hours. It keeps working offline for up to **3 days**. After that it locks until you are back online and click **Check again**.
+Quant Percent currently issues keys after confirming payment; registering an account does not automatically issue a licence key.
+
+The app attempts an online licence check every 12 hours. Each successful check permits offline use for up to **3 days from that check**, or until the licence expires if sooner. After that the app locks until you are back online and click **Check again**. A valid licence can resume without buying another key; your locally saved data is retained. New market data and live prices require Internet access.
 
 ## Your data
 
