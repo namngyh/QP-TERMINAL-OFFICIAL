@@ -8,7 +8,7 @@ Phần mềm nghiên cứu chỉ báo và chiến lược giao dịch cho thị 
 
 **[Tải QP Terminal cho Windows](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/latest/download/QP-Terminal-setup.exe)**
 
-Phiên bản mới nhất: **0.1.3**. [Xem thay đổi](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.3).
+Phiên bản mới nhất: **0.1.4**. [Xem thay đổi](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.4).
 
 Hoặc vào mục [Releases](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases) để xem mọi phiên bản và ghi chú thay đổi.
 
@@ -40,7 +40,15 @@ Lần đầu mở, app hiện màn hình nhập mã bản quyền.
 2. Mỗi mã dùng được trên **tối đa 2 máy**. Kích hoạt lại trên cùng một máy không tốn thêm lượt.
 3. Muốn chuyển sang máy khác: mở app, bấm **Ctrl+K**, chọn **Bản quyền**, rồi bấm **Gỡ máy này** để trả lại lượt.
 
-Mã hiện do Quant Percent cấp sau khi xác nhận thanh toán; đăng ký tài khoản chưa tự cấp mã bản quyền.
+Bạn có thể đăng nhập tài khoản Quant Percent trong app. Nếu email đã xác thực và
+mã bản quyền đã được liên kết với email người mua, app hiển thị mã để sao chép
+và kích hoạt. Đăng ký tài khoản hoặc thanh toán hiện chưa tự cấp mã: Quant Percent
+vẫn xác nhận thanh toán, cấp mã và liên kết mã với email thủ công.
+
+Bản 0.1.4 cũng cập nhật nến VN đã được database sửa mà không cần tải lại biểu đồ,
+cho nến ngày thay đổi trong phiên, và sửa việc thiếu lịch sử Bitcoin khi luồng
+giá chạy trước lần nạp dữ liệu đầu. Bản cài cho khách nhận nến VN từ gateway khi
+phút đã đóng; cập nhật theo từng giây hiện áp dụng cho bản kết nối database trực tiếp.
 
 App thử kiểm tra bản quyền qua Internet mỗi 12 giờ. Mỗi lần kiểm tra thành công cho phép dùng offline tối đa **3 ngày tính từ lần kiểm tra đó**, hoặc tới ngày hết hạn bản quyền nếu sớm hơn. Sau thời hạn này, app khoá lại cho tới khi kết nối lại và bấm **Kiểm tra lại**. Nếu bản quyền vẫn hợp lệ thì dùng tiếp, không cần mua mã mới; dữ liệu đã lưu trên máy được giữ nguyên. Dữ liệu thị trường mới và giá trực tiếp cần Internet.
 
@@ -73,7 +81,7 @@ A Windows desktop application for researching trading indicators and strategies 
 
 **[Download QP Terminal for Windows](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/latest/download/QP-Terminal-setup.exe)**
 
-Latest version: **0.1.3**. [Release notes](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.3).
+Latest version: **0.1.4**. [Release notes](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.4).
 
 All versions and release notes are under [Releases](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases).
 
@@ -105,7 +113,17 @@ The first time the app starts, it asks for your licence key.
 2. Each key works on **up to 2 computers**. Activating again on the same computer does not use another slot.
 3. To move to another computer: open the app, press **Ctrl+K**, choose **Licence**, then click **Release this machine** to free its slot.
 
-Quant Percent currently issues keys after confirming payment; registering an account does not automatically issue a licence key.
+You can sign in to your Quant Percent account in the app. If your email is
+verified and a licence key has been linked to that email, the app displays the
+key for copying and activation. Registration or payment does not yet issue a
+key automatically; Quant Percent still confirms payment, issues the key and
+links it to the buyer's email manually.
+
+Version 0.1.4 also updates corrected Vietnamese candles without a chart reload,
+updates the daily candle during the session, and repairs missing Bitcoin history
+when the live feed starts before the first backfill. Customer installations read
+finished VN minutes through the gateway. Per-second VN updates currently apply
+to installations with a direct database connection.
 
 The app attempts an online licence check every 12 hours. Each successful check permits offline use for up to **3 days from that check**, or until the licence expires if sooner. After that the app locks until you are back online and click **Check again**. A valid licence can resume without buying another key; your locally saved data is retained. New market data and live prices require Internet access.
 
