@@ -8,7 +8,7 @@ Phần mềm nghiên cứu chỉ báo và chiến lược giao dịch cho thị 
 
 **[Tải QP Terminal cho Windows](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/latest/download/QP-Terminal-setup.exe)**
 
-Phiên bản mới nhất: **0.1.4**. [Xem thay đổi](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.4).
+Phiên bản mới nhất: **0.1.5**. [Xem thay đổi](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.5).
 
 Hoặc vào mục [Releases](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases) để xem mọi phiên bản và ghi chú thay đổi.
 
@@ -50,6 +50,10 @@ cho nến ngày thay đổi trong phiên, và sửa việc thiếu lịch sử B
 giá chạy trước lần nạp dữ liệu đầu. Bản cài cho khách nhận nến VN từ gateway khi
 phút đã đóng; cập nhật theo từng giây hiện áp dụng cho bản kết nối database trực tiếp.
 
+Bản 0.1.5 cho phép chọn khung nến và phạm vi lịch sử riêng trong phân tích chuỗi
+giá, kiểm định chiến lược, Walk-forward và hai kiểu so sánh. Bạn có thể chọn số
+nến gần nhất, toàn bộ lịch sử hiện có hoặc khoảng ngày.
+
 App thử kiểm tra bản quyền qua Internet mỗi 12 giờ. Mỗi lần kiểm tra thành công cho phép dùng offline tối đa **3 ngày tính từ lần kiểm tra đó**, hoặc tới ngày hết hạn bản quyền nếu sớm hơn. Sau thời hạn này, app khoá lại cho tới khi kết nối lại và bấm **Kiểm tra lại**. Nếu bản quyền vẫn hợp lệ thì dùng tiếp, không cần mua mã mới; dữ liệu đã lưu trên máy được giữ nguyên. Dữ liệu thị trường mới và giá trực tiếp cần Internet.
 
 ## Dữ liệu của bạn
@@ -81,7 +85,7 @@ A Windows desktop application for researching trading indicators and strategies 
 
 **[Download QP Terminal for Windows](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/latest/download/QP-Terminal-setup.exe)**
 
-Latest version: **0.1.4**. [Release notes](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.4).
+Latest version: **0.1.5**. [Release notes](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases/tag/v0.1.5).
 
 All versions and release notes are under [Releases](https://github.com/namngyh/QP-TERMINAL-OFFICIAL/releases).
 
@@ -124,6 +128,10 @@ updates the daily candle during the session, and repairs missing Bitcoin history
 when the live feed starts before the first backfill. Customer installations read
 finished VN minutes through the gateway. Per-second VN updates currently apply
 to installations with a direct database connection.
+
+Version 0.1.5 adds separate candle interval and history range controls to
+price-series analysis, strategy statistics, walk-forward and both comparison
+tools. Choose recent bars, all available history or a date window.
 
 The app attempts an online licence check every 12 hours. Each successful check permits offline use for up to **3 days from that check**, or until the licence expires if sooner. After that the app locks until you are back online and click **Check again**. A valid licence can resume without buying another key; your locally saved data is retained. New market data and live prices require Internet access.
 
